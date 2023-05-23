@@ -15,10 +15,10 @@ OpenCore EFI for MSI Prestige 15 A10SC
 | Wireless | Intel AX201 |
 
 
-**OpenCore version**: [0.8.8](https://github.com/acidanthera/opencorepkg/releases)
+**OpenCore version**: [0.9.2](https://github.com/acidanthera/opencorepkg/releases)
 
 ## Compatible macOS versions
- - Ventura (13.1)
+ - Ventura (13.4)
 
 ## What Works
  - Wi-Fi : DW1560 (If you wnat to use it, please use [AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup) and [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM)) / Intel AX201
