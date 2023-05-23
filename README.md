@@ -76,20 +76,20 @@ OpenCore EFI for MSI Prestige 15 A10SC
 	- ps -ef | grep -i sleepwatcher
 
 ## Kext
- - [Lilu v1.6.3](https://github.com/acidanthera/Lilu)
- - [WhateverGreen v1.6.3](https://github.com/acidanthera/WhateverGreen)
- - [VirtualSMC/SMCBatteryManager/SMCProcessor/SMCSuperIO/SMCLightSensor v1.3.0](https://github.com/acidanthera/VirtualSMC)
- - [AppleALC v1.7.8](https://github.com/acidanthera/AppleALC)
+ - [Lilu v1.6.5](https://github.com/acidanthera/Lilu)
+ - [WhateverGreen v1.6.4](https://github.com/acidanthera/WhateverGreen)
+ - [VirtualSMC/SMCBatteryManager/SMCProcessor/SMCSuperIO/SMCLightSensor v1.3.1](https://github.com/acidanthera/VirtualSMC)
+ - [AppleALC v1.8.2](https://github.com/acidanthera/AppleALC)
  - [VerbStub v1.0.4](https://github.com/hackintosh-stuff/ComboJack/tree/master/ComboJack_Installer)
- - [VoodooPS2Controller v2.3.3](https://github.com/acidanthera/VoodooPS2)
- - [VoodooI2C v2.7.1 / VoodooI2CHID V1.0.0](https://github.com/VoodooI2C/VoodooI2C)
+ - [VoodooPS2Controller v2.3.5](https://github.com/acidanthera/VoodooPS2)
+ - [VoodooI2C v2.8.0 / VoodooI2CHID V1.0.0](https://github.com/VoodooI2C/VoodooI2C)
  - [CPUFriend v1.2.6](https://github.com/acidanthera/CPUFriend)
  - [NoTouchID v1.0.4](https://github.com/al3xtjames/NoTouchID)
  - [NVMeFix v1.1.0](https://github.com/acidanthera/NVMeFix)
  - [IOElectrify v1.0.0](https://github.com/the-darkvoid/macOS-IOElectrify)
  - [USBInjectAll v0.7.1](https://github.com/Sniki/OS-X-USB-Inject-All)
- - [BlueToolFixup v2.6.4](https://github.com/acidanthera/BrcmPatchRAM)
- - [AirportItlwm v2.1.0](https://github.com/OpenIntelWireless/itlwm)
+ - [BlueToolFixup v2.6.6](https://github.com/acidanthera/BrcmPatchRAM)
+ - [AirportItlwm v2.2.0](https://github.com/OpenIntelWireless/itlwm)
  - [IntelBluetoothFirmware/IntelBluetoothInjector/IntelBTPatcher v2.2.0](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
  - [IntelMausi V1.0.7](https://github.com/acidanthera/IntelMausi/)
 
