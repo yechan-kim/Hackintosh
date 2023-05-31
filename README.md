@@ -22,11 +22,11 @@ OpenCore EFI for MSI Prestige 15 A10SC
 
 ## What Works
  - Wi-Fi : DW1560 (If you wnat to use it, please use [AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup) and [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM)) / Intel AX201
- - Bluetooth (see sleep/wakeup hint)
+ - Bluetooth (in 13.4 not working)
  - HDMI (thanks to @vomesk)
  - Internal/External audio jacks
  - Sleep/Wake up
- - OTA Update (If you wnat to use it, please edit SecureBootModel option [**here**](https://dortania.github.io/OpenCore-Post-Install/universal/security/applesecureboot.html#securebootmodel)in config.plist -> Misc -> Security -> SecureBootModel)
+ - OTA Update (If you wnat to use it, please edit SecureBootModel option [**here**](https://dortania.github.io/OpenCore-Post-Install/universal/security/applesecureboot.html#securebootmodel) in config.plist -> Misc -> Security -> SecureBootModel)
 
 ## What Doesn't Work
  - Nvidia GTX1650 Max-Q (Disabled via SSDT)
@@ -64,16 +64,6 @@ OpenCore EFI for MSI Prestige 15 A10SC
 	- To have UTC clock and fix Windows 10 issues : DualBoot/UniversalTimeFix.reg
 	- Disable Fast Boot on Windows 10 : DualBoot/DisableFastBoot.reg
 	- NTFS r/w support : brew install --cask osxfuse; brew install --cask mounty
-
-## BlueTooth fix after sleep/wakeup
-	- brew install blueutil
-	- brew install sleepwatcher
-	- echo "blueutil -p 0 && sleep 1 && blueutil -p 1" > ~/.wakeup
-	- chmod +x ~/.wakeup
-	- sudo cp -avi /usr/local/Cellar/sleepwatcher/2.2.1/de.bernhard-baehr.sleepwatcher-20compatibility.plist /Library/LaunchDaemons/
-	- sudo chown root:wheel /Library/LaunchDaemons/de.bernhard-baehr.sleepwatcher-20compatibility.plist
-	- sudo reboot
-	- ps -ef | grep -i sleepwatcher
 
 ## Kext
  - [Lilu v1.6.5](https://github.com/acidanthera/Lilu)
