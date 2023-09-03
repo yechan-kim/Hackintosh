@@ -9,20 +9,20 @@ OpenCore EFI for MSI Prestige 15 A10SC
 | IGPU | Intel Graphics UHD 630	|
 | DGPU | Nvidia GTX1650 Max-Q |
 | Display | CMN N156HCE-EN1 1920*1080(FHD) |
-| NVMe 1 | Kingston 256GB |
+| NVMe 1 | Samsung 970 EVO PLUS 1TB |
 | NVMe 2 | Samsung 970 EVO PLUS 500GB |
 | Audio | Realtek ACL298 |
 | Wireless | Intel AX201 |
 
 
-**OpenCore version**: [0.9.2](https://github.com/acidanthera/opencorepkg/releases)
+**OpenCore version**: [0.9.4](https://github.com/acidanthera/opencorepkg/releases)
 
 ## Compatible macOS versions
  - Ventura (13.4)
 
 ## What Works
  - Wi-Fi : DW1560 (If you wnat to use it, please use [AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup) and [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM)) / Intel AX201
- - Bluetooth (in 13.4 not working)
+ - Bluetooth
  - HDMI (thanks to @vomesk)
  - Internal/External audio jacks
  - Sleep/Wake up
@@ -66,21 +66,21 @@ OpenCore EFI for MSI Prestige 15 A10SC
 	- NTFS r/w support : brew install --cask osxfuse; brew install --cask mounty
 
 ## Kext
- - [Lilu v1.6.6](https://github.com/acidanthera/Lilu)
- - [WhateverGreen v1.6.5](https://github.com/acidanthera/WhateverGreen)
+ - [Lilu v1.6.7](https://github.com/acidanthera/Lilu)
+ - [WhateverGreen v1.6.6](https://github.com/acidanthera/WhateverGreen)
  - [VirtualSMC/SMCBatteryManager/SMCProcessor/SMCSuperIO/SMCLightSensor v1.3.2](https://github.com/acidanthera/VirtualSMC)
- - [AppleALC v1.8.3](https://github.com/acidanthera/AppleALC)
+ - [AppleALC v1.8.4](https://github.com/acidanthera/AppleALC)
  - [VerbStub v1.0.4](https://github.com/hackintosh-stuff/ComboJack/tree/master/ComboJack_Installer)
  - [VoodooPS2Controller v2.3.5](https://github.com/acidanthera/VoodooPS2)
  - [VoodooI2C v2.8.0 / VoodooI2CHID V1.0.0](https://github.com/VoodooI2C/VoodooI2C)
  - [CPUFriend v1.2.7](https://github.com/acidanthera/CPUFriend)
  - [NoTouchID v1.0.4](https://github.com/al3xtjames/NoTouchID)
- - [NVMeFix v1.1.0](https://github.com/acidanthera/NVMeFix)
+ - [NVMeFix v1.1.1](https://github.com/acidanthera/NVMeFix)
  - [IOElectrify v1.0.0](https://github.com/the-darkvoid/macOS-IOElectrify)
  - [USBInjectAll v0.7.1](https://github.com/Sniki/OS-X-USB-Inject-All)
- - [BlueToolFixup v2.6.7](https://github.com/acidanthera/BrcmPatchRAM)
- - [AirportItlwm v2.2.0](https://github.com/OpenIntelWireless/itlwm)
- - [IntelBluetoothFirmware/IntelBluetoothInjector/IntelBTPatcher v2.2.0](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
+ - [BlueToolFixup v2.6.8](https://github.com/acidanthera/BrcmPatchRAM)
+ - [AirportItlwm v2.3.0](https://github.com/OpenIntelWireless/itlwm)
+ - [IntelBluetoothFirmware/IntelBluetoothInjector/IntelBTPatcher v2.3.0](https://github.com/OpenIntelWireless/IntelBluetoothFirmware)
  - [IntelMausi V1.0.7](https://github.com/acidanthera/IntelMausi/)
 
 
