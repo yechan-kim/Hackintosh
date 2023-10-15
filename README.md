@@ -15,10 +15,11 @@ OpenCore EFI for MSI Prestige 15 A10SC
 | Wireless | Intel AX201 |
 
 
-**OpenCore version**: [0.9.4](https://github.com/acidanthera/opencorepkg/releases)
+**OpenCore version**: [0.9.5](https://github.com/acidanthera/opencorepkg/releases)
 
 ## Compatible macOS versions
- - Ventura (13.4)
+ - Ventura (13.6)
+ - Sonoma (14.0), Not Recommends
 
 ## What Works
  - Wi-Fi : DW1560 (If you wnat to use it, please use [AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup) and [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM)) / Intel AX201
@@ -69,7 +70,7 @@ OpenCore EFI for MSI Prestige 15 A10SC
  - [Lilu v1.6.7](https://github.com/acidanthera/Lilu)
  - [WhateverGreen v1.6.6](https://github.com/acidanthera/WhateverGreen)
  - [VirtualSMC/SMCBatteryManager/SMCProcessor/SMCSuperIO/SMCLightSensor v1.3.2](https://github.com/acidanthera/VirtualSMC)
- - [AppleALC v1.8.4](https://github.com/acidanthera/AppleALC)
+ - [AppleALC v1.8.6](https://github.com/acidanthera/AppleALC)
  - [VerbStub v1.0.4](https://github.com/hackintosh-stuff/ComboJack/tree/master/ComboJack_Installer)
  - [VoodooPS2Controller v2.3.5](https://github.com/acidanthera/VoodooPS2)
  - [VoodooI2C v2.8.0 / VoodooI2CHID V1.0.0](https://github.com/VoodooI2C/VoodooI2C)

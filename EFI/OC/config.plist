@@ -1112,8 +1112,6 @@
         <integer>0</integer>
         <key>Timeout</key>
         <integer>5</integer>
-        <key>InstanceIdentifier</key>
-        <string></string>
       </dict>
       <key>Debug</key>
       <dict>
@@ -1161,7 +1159,7 @@
         <key>ScanPolicy</key>
         <integer>0</integer>
         <key>SecureBootModel</key>
-        <string>Disabled</string>
+        <string>j213</string>
         <key>Vault</key>
         <string>Optional</string>
       </dict>
@@ -1847,6 +1845,8 @@
         <key>TscSyncTimeout</key>
         <integer>0</integer>
         <key>UnblockFsConnect</key>
+        <false/>
+        <key>ShimRetainProtocol</key>
         <false/>
       </dict>
       <key>ReservedMemory</key>
